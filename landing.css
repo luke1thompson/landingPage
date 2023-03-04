@@ -46,10 +46,26 @@ a {
     border: white;
     border-style: solid;
     border-width: 1px;
-    flex: 1;
+    flex: 0 1 1;
 
 }
 
 .hookpic {
     flex: 1;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.infopics {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    gap: 100px;
+}
+
+.card {
+    max-width: 700px;
 }
