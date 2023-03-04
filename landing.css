@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0;
+    align-items: center;
 }
 
 a {
@@ -12,26 +12,25 @@ a {
 .header {
     display: flex;
     list-style-type: none;
-    align-items: center;
     justify-content: space-between;
+    width: 100vw;
+    align-items: center;
     background-color: #1f2937;
     color: white;
-    margin-bottom: -10px
-}
-
-.hleft {
-    margin-left: 80px;
 }
 
 .hright {
     display: flex;
-    justify-content: space-around;
     gap: 16px;
-    margin-right: 80px;
+}
+
+.hleft {
+
 }
 
 
 .hook {
+    width: 100vw;
     background-color: #1f2937;
     color: white;
     padding: 60px 80px;
@@ -43,29 +42,48 @@ a {
 
 .hooktext {
     width: 300px;
+    min-width: 200px;
+    height: 200px;
     border: white;
     border-style: solid;
     border-width: 1px;
-    flex: 0 1 1;
-
-}
-
-.hookpic {
-    flex: 1;
+    flex: 0 0 1;
 }
 
 .information {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
+.information img {
+    border: 4px solid #3882f6;
+    border-radius: 20px;
+    width:200px;
+    height:auto;
+}
 .infopics {
     display: flex;
-    justify-content: center;
-    width: 200px;
-    gap: 100px;
+    gap: 80px;
 }
 
 .card {
-    max-width: 700px;
+    width: 150px;
+    text-align: center;
+}
+
+.testimonial {
+    padding: 150px;
+}
+
+#qsource {
+    font-weight: bold;
+    text-align: end;
+}
+
+.calltoaction {
+    display: flex;
+    justify-content: center;
+    background-color: #3882f6;
+    width: 600px;
 }
