@@ -1,11 +1,12 @@
 body {
     display: flex;
     flex-direction: column;
-    margin: 0px 100px;
+    margin: 0;
 }
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 .header {
@@ -13,12 +14,30 @@ a {
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hook {
+    background-color: #1f2937;
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.hooktext {
+    width: 300px;
+    margin: 0 50px;
 }
 
 .hleft {
-
+    margin-left: 30px;
 }
-
 .hright {
     display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    margin-right: 30px;
 }
