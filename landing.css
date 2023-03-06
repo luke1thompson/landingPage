@@ -28,7 +28,7 @@ button {
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
+    padding: 20px 100px 0 100px;
 }
 
 .logo {
@@ -50,7 +50,7 @@ button {
 }
 
 .herotext {
-    min-width: 280px;
+    min-width: 370px;
 }
 
 .heromain {
